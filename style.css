@@ -23,3 +23,16 @@ body{
 #small{
     font-size: 20px;
 }
+.form-container{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (200px , 1fr));
+    gap: 20px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 15px;
+}
