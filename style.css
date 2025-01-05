@@ -36,3 +36,12 @@ body{
 label{
     font-size: 15px;
 }
+input, select{
+    padding: 6px 10px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+label address{
+    margin-bottom: 50px;
+}
